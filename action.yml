@@ -2,7 +2,7 @@ name: ServiceNow CI/CD Apply Changes
 description: 'Apply Remote Changes from a remote Git repo for an application linked to Source Control on an instance.'
 author: "ServiceNow"
 runs:
-  using: 'node12'
+  using: 'node21'
   main: './lib/index.js'
 branding:
   icon: 'refresh-ccw'
